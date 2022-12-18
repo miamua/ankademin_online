@@ -1,0 +1,56 @@
+.content {
+    border: 2px solid $ankademinOrange;
+    border-radius: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: $bgContent1;
+
+
+}
+
+.content2 {
+    border: 2px solid $ankademinOrange;
+    border-radius: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: $bgContent2;
+
+}
+
+.insideContent {
+    border: 2px solid $ankademinOrange;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 12px;
+    background-color: white;
+
+}
+
+.insideContent2 {
+    border: 2px solid $ankademinOrange;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 12px;
+    background-color: $bgContent1;
+
+}
+
+@media (min-width: 640px) {
+    .contentGrid {
+        @include flexCenter(2)
+    }
+}
+
+
+@media (max-width: 640px) {
+    .contentGrid {
+        @include flexCenter(1)
+    }
+
+}
+
+.star {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: $ankademinRed;
+}

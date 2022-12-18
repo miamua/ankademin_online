@@ -1,0 +1,24 @@
+h1 {
+    text-transform: uppercase;
+    font-family: 'Average', serif;
+
+}
+
+
+h2 {
+    font-size: 42px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="radio"] {
+    accent-color: orange;
+}
